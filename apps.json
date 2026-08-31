@@ -8,6 +8,8 @@
       "symbol": "metronome.fill",
       "appStoreID": "6806420471",
       "urlScheme": "riffally-metronome://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#metronome",
+      "availability": "available",
       "sortOrder": 10,
       "isVisible": true
     },
@@ -18,16 +20,20 @@
       "symbol": "music.note.list",
       "appStoreID": "6806687459",
       "urlScheme": "riffally-scales://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#scales",
+      "availability": "available",
       "sortOrder": 20,
       "isVisible": true
     },
     {
       "id": "tuner",
       "name": "Tuner",
-      "summary": "Fast, calm, confidence-aware tuning.",
+      "summary": "Fast, calm, confidence aware tuning.",
       "symbol": "tuningfork",
       "appStoreID": "6806709354",
       "urlScheme": "riffally-tuner://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#tuner",
+      "availability": "available",
       "sortOrder": 30,
       "isVisible": true
     },
@@ -38,7 +44,45 @@
       "symbol": "pianokeys",
       "appStoreID": "6806707329",
       "urlScheme": "riffally-harmony://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#harmony",
+      "availability": "available",
       "sortOrder": 40,
+      "isVisible": true
+    },
+    {
+      "id": "ear",
+      "name": "Ear",
+      "summary": "Train your ear and connect sound to the fretboard.",
+      "symbol": "ear.and.waveform",
+      "appStoreID": "comingSoon",
+      "urlScheme": "riffally-ear://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#ear",
+      "availability": "comingSoon",
+      "sortOrder": 50,
+      "isVisible": true
+    },
+    {
+      "id": "jam",
+      "name": "Jam",
+      "summary": "Play along with a focused practice band.",
+      "symbol": "music.quarternote.3",
+      "appStoreID": "comingSoon",
+      "urlScheme": "riffally-jam://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#jam",
+      "availability": "comingSoon",
+      "sortOrder": 60,
+      "isVisible": true
+    },
+    {
+      "id": "practice",
+      "name": "Practice",
+      "summary": "Build a calm practice plan for the time you have.",
+      "symbol": "checklist",
+      "appStoreID": "comingSoon",
+      "urlScheme": "riffally-practice://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#practice",
+      "availability": "comingSoon",
+      "sortOrder": 70,
       "isVisible": true
     }
   ]

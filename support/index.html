@@ -8,17 +8,19 @@
     :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     body { margin: 0; background: #070811; color: #f7f9ff; }
     main { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; }
-    .brand, a { color: #3bc7f5; }
-    .brand { font-size: 13px; font-weight: 800; letter-spacing: .2em; }
+    a { color: #3bc7f5; }
+    .brand { display: block; width: min(360px, 100%); }
+    .brand img { display: block; width: 100%; height: auto; border-radius: 10px; }
     h1 { font-size: clamp(40px, 9vw, 64px); margin: 14px 0; }
     h2 { margin-top: 36px; }
     p, li { color: #c5cad8; font-size: 17px; line-height: 1.65; }
     .card { margin-top: 28px; padding: 22px; border: 1px solid #29304a; border-radius: 22px; background: #111522; }
+    .back { display: inline-block; margin-top: 34px; }
   </style>
 </head>
 <body>
 <main>
-  <div class="brand">RIFFALLY</div>
+  <a class="brand" href="../" aria-label="RiffAlly home"><img src="../assets/riffally-logo.png" alt="RiffAlly" width="1800" height="480"></a>
   <h1>Support</h1>
   <p>Each RiffAlly app includes a built-in guide. Tap <strong>?</strong> for concise explanations of its core controls and options.</p>
   <div class="card">
@@ -28,6 +30,9 @@
       <li><strong>Scales:</strong> choose a root and scale, then use the pattern and playback controls.</li>
       <li><strong>Tuner:</strong> allow microphone access, play one clear string at a time, and check the selected tuning and reference pitch.</li>
       <li><strong>Harmony:</strong> use Atlas to find a chord, Shape to change its grip, Path for voice leading, and Morph for one-note changes.</li>
+      <li><strong>Ear:</strong> listen once without guessing, then connect what you hear to the matching interval or fretboard position.</li>
+      <li><strong>Jam:</strong> choose a musical setting, confirm the tempo and key, then begin with a short focused session.</li>
+      <li><strong>Practice:</strong> set the time you have and the skill you want to improve, then follow the session one step at a time.</li>
     </ul>
   </div>
   <h2>Optional tips</h2>
@@ -35,6 +40,7 @@
   <h2>Contact</h2>
   <p>Email <a href="mailto:l4nner@gmail.com">l4nner@gmail.com</a>. Please include the app name, iPhone model, iOS version, app version, and a short description. Do not include private or sensitive information.</p>
   <p><a href="../privacy/">Privacy Policy</a></p>
+  <p><a class="back" href="../">← All RiffAlly apps</a></p>
 </main>
 </body>
 </html>

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "metronome",
+      "name": "Metronome",
+      "summary": "Timing and focused interval practice.",
+      "symbol": "metronome.fill",
+      "appStoreID": "6806420471",
+      "urlScheme": "riffally-metronome://open",
+      "sortOrder": 10,
+      "isVisible": true
+    },
+    {
+      "id": "scales",
+      "name": "Scales",
+      "summary": "Explore scales across the fretboard.",
+      "symbol": "music.note.list",
+      "appStoreID": "6806687459",
+      "urlScheme": "riffally-scales://open",
+      "sortOrder": 20,
+      "isVisible": true
+    },
+    {
+      "id": "tuner",
+      "name": "Tuner",
+      "summary": "Fast, calm, confidence-aware tuning.",
+      "symbol": "tuningfork",
+      "appStoreID": "6806707329",
+      "urlScheme": "riffally-tuner://open",
+      "sortOrder": 30,
+      "isVisible": true
+    },
+    {
+      "id": "harmony",
+      "name": "Harmony",
+      "summary": "Discover chords, voicings, and movement.",
+      "symbol": "pianokeys",
+      "appStoreID": "6806709354",
+      "urlScheme": "riffally-harmony://open",
+      "sortOrder": 40,
+      "isVisible": true
+    }
+  ]
+}

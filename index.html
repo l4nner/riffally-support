@@ -16,8 +16,16 @@
     p { color: #c5cad8; font-size: 18px; line-height: 1.65; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin: 38px 0; }
     .card { padding: 22px; border: 1px solid #29304a; border-radius: 22px; background: #111522; }
+    .manifesto { margin-top: 72px; padding: 48px; border: 1px solid #26324d; border-radius: 28px; background: linear-gradient(145deg, #11182b 0%, #0b1020 58%, #081021 100%); }
+    .manifesto-label { margin: 0 0 14px; color: #3bc7f5; font-size: 13px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
+    .manifesto h2 { max-width: 650px; margin: 0; font-size: clamp(38px, 8vw, 62px); line-height: 1.02; letter-spacing: -.035em; }
+    .manifesto-copy { max-width: 640px; margin: 24px 0 0; font-size: 20px; }
     a { color: #3bc7f5; }
     nav { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 34px; }
+    @media (max-width: 540px) {
+      .manifesto { margin-top: 56px; padding: 34px 28px; }
+      .manifesto-copy { font-size: 18px; }
+    }
   </style>
 </head>
 <body>
@@ -30,6 +38,11 @@
     <article class="card"><h2>Scales</h2><p>Explore scales and patterns across the fretboard.</p></article>
     <article class="card"><h2>Tuner</h2><p>Fast, confidence-aware guitar tuning.</p></article>
     <article class="card"><h2>Harmony</h2><p>Discover chords, voicings, and smooth movement.</p></article>
+  </section>
+  <section class="manifesto" aria-labelledby="manifesto-title">
+    <p class="manifesto-label">Why RiffAlly</p>
+    <h2 id="manifesto-title">Music will save us.</h2>
+    <p class="manifesto-copy">It brings us back—to focus, feeling, creativity, and one another. RiffAlly exists to make music a little easier to understand, practice, and create.</p>
   </section>
   <nav><a href="support/">Support</a><a href="privacy/">Privacy</a></nav>
 </main>

@@ -84,6 +84,18 @@
       "availability": "comingSoon",
       "sortOrder": 70,
       "isVisible": true
+    },
+    {
+      "id": "slowdown",
+      "name": "Slowdown",
+      "summary": "Slow down, loop, and master difficult passages.",
+      "symbol": "arrow.up.right.circle.fill",
+      "appStoreID": "comingSoon",
+      "urlScheme": "riffally-slowdown://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#slowdown",
+      "availability": "comingSoon",
+      "sortOrder": 80,
+      "isVisible": true
     }
   ]
 }

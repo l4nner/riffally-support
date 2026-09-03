@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="RiffAlly is your musical ally: seven calm, focused iPhone tools for timing, tuning, fretboard knowledge, harmony, ear training, jamming, and practice.">
+  <meta name="description" content="RiffAlly is your musical ally: eight calm, focused iPhone tools for timing, tuning, fretboard knowledge, harmony, ear training, jamming, practice planning, and mastering difficult passages.">
   <meta name="theme-color" content="#070811">
   <title>RiffAlly — Your musical ally</title>
   <style>
@@ -98,7 +98,7 @@
     }
     .card h3 { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin: 0; font-size: 25px; }
     .card p { max-width: 390px; margin: auto 0 0; color: var(--muted); font-size: 17px; line-height: 1.55; }
-    #practice { grid-column: 1 / -1; }
+    #practice, #slowdown { grid-column: 1 / -1; }
     a.card:hover, a.card:focus-visible { border-color: var(--cyan); background: linear-gradient(145deg, rgba(22, 35, 59, .98), rgba(12, 19, 35, .96)); transform: translateY(-3px); }
     .status { flex: none; padding: 7px 10px; border-radius: 999px; background: rgba(59, 199, 245, .12); color: var(--cyan); font-size: 11px; font-weight: 800; letter-spacing: .045em; text-transform: uppercase; }
     .status.soon { color: #aeb8ce; background: rgba(174, 184, 206, .1); }
@@ -121,7 +121,7 @@
       .brand-mark { width: 100%; margin-bottom: 38px; border-radius: 14px; }
       .section-heading { grid-template-columns: 1fr; gap: 20px; }
       .grid { grid-template-columns: 1fr; }
-      #practice { grid-column: auto; }
+      #practice, #slowdown { grid-column: auto; }
       .path-list { grid-template-columns: repeat(2, 1fr); gap: 28px 16px; }
       .manifesto { margin-top: 72px; }
     }
@@ -144,7 +144,7 @@
     <img class="brand-mark" src="assets/riffally-logo.png" alt="RiffAlly" width="1800" height="480">
     <p class="eyebrow">Your music. Your pace. Your ally.</p>
     <h1>See music clearly.<br>Play it with purpose.</h1>
-    <p class="hero-copy">Seven focused iPhone tools. One calm musical companion—from the first count-in to the next breakthrough.</p>
+    <p class="hero-copy">Eight focused iPhone tools. One calm musical companion—from the first count-in to the next breakthrough.</p>
     <div class="actions">
       <a class="button primary" href="#suite">Explore the suite</a>
       <a class="button" href="support/">Get support</a>
@@ -157,7 +157,7 @@
         <p class="section-label">The RiffAlly suite</p>
         <h2 id="suite-title">Everything you need to listen, learn, and play.</h2>
       </div>
-      <p class="section-intro">Four apps are ready now. Ear, Jam, and Practice are the next steps in a connected family built to grow with you.</p>
+      <p class="section-intro">Four apps are ready now. Ear, Jam, Practice, and Slowdown are the next steps in a connected family built to grow with you.</p>
     </div>
     <div class="grid" id="app-grid" aria-label="RiffAlly apps">
       <a class="card" id="metronome" href="https://apps.apple.com/app/id6806420471"><h3>Metronome <span class="status">App Store</span></h3><p>Timing and focused interval practice.</p></a>
@@ -167,6 +167,7 @@
       <article class="card" id="ear"><h3>Ear <span class="status soon">Coming soon</span></h3><p>Train your ear and connect sound to the fretboard.</p></article>
       <article class="card" id="jam"><h3>Jam <span class="status soon">Coming soon</span></h3><p>Play along with a focused practice band.</p></article>
       <article class="card" id="practice"><h3>Practice <span class="status soon">Coming soon</span></h3><p>Build a calm practice plan for the time you have.</p></article>
+      <article class="card" id="slowdown"><h3>Slowdown <span class="status soon">Coming soon</span></h3><p>Slow down, loop, and master difficult passages.</p></article>
     </div>
   </section>
 

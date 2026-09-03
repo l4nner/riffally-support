@@ -21,9 +21,9 @@
       "appStoreID": "6806687459",
       "urlScheme": "riffally-scales://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#scales",
-      "availability": "available",
+      "availability": "comingSoon",
       "sortOrder": 20,
-      "isVisible": true
+      "isVisible": false
     },
     {
       "id": "tuner",
@@ -33,9 +33,9 @@
       "appStoreID": "6806709354",
       "urlScheme": "riffally-tuner://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#tuner",
-      "availability": "available",
+      "availability": "comingSoon",
       "sortOrder": 30,
-      "isVisible": true
+      "isVisible": false
     },
     {
       "id": "harmony",
@@ -45,9 +45,9 @@
       "appStoreID": "6806707329",
       "urlScheme": "riffally-harmony://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#harmony",
-      "availability": "available",
+      "availability": "comingSoon",
       "sortOrder": 40,
-      "isVisible": true
+      "isVisible": false
     },
     {
       "id": "ear",

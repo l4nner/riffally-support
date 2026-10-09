@@ -21,9 +21,9 @@
       "appStoreID": "6806687459",
       "urlScheme": "riffally-scales://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#scales",
-      "availability": "comingSoon",
+      "availability": "available",
       "sortOrder": 20,
-      "isVisible": false
+      "isVisible": true
     },
     {
       "id": "tuner",
@@ -33,9 +33,9 @@
       "appStoreID": "6806709354",
       "urlScheme": "riffally-tuner://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#tuner",
-      "availability": "comingSoon",
+      "availability": "available",
       "sortOrder": 30,
-      "isVisible": false
+      "isVisible": true
     },
     {
       "id": "harmony",
@@ -45,9 +45,9 @@
       "appStoreID": "6806707329",
       "urlScheme": "riffally-harmony://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#harmony",
-      "availability": "comingSoon",
+      "availability": "available",
       "sortOrder": 40,
-      "isVisible": false
+      "isVisible": true
     },
     {
       "id": "ear",
@@ -66,10 +66,10 @@
       "name": "Jam",
       "summary": "Play along with a focused practice band.",
       "symbol": "music.quarternote.3",
-      "appStoreID": "comingSoon",
+      "appStoreID": "6807209960",
       "urlScheme": "riffally-jam://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#jam",
-      "availability": "comingSoon",
+      "availability": "available",
       "sortOrder": 60,
       "isVisible": true
     },
@@ -90,11 +90,23 @@
       "name": "Slowdown",
       "summary": "Slow down, loop, and master difficult passages.",
       "symbol": "arrow.up.right.circle.fill",
-      "appStoreID": "comingSoon",
+      "appStoreID": "6808108610",
       "urlScheme": "riffally-slowdown://open",
       "websiteURL": "https://l4nner.github.io/riffally-support/#slowdown",
-      "availability": "comingSoon",
+      "availability": "available",
       "sortOrder": 80,
+      "isVisible": true
+    },
+    {
+      "id": "loop",
+      "name": "Loop",
+      "summary": "Record a short practice take and repeat selected bars.",
+      "symbol": "repeat",
+      "appStoreID": "6809630684",
+      "urlScheme": "riffally-loop://open",
+      "websiteURL": "https://l4nner.github.io/riffally-support/#loop",
+      "availability": "available",
+      "sortOrder": 90,
       "isVisible": true
     }
   ]
